@@ -29,9 +29,17 @@ def main():
     #print(people_list)
 
     l = list(map(lambda p: {'age': p['age']}, people_list))
-    print(l)
+    #print(l)
 
-    foo()
+    #foo()
+    pythonInBox()
+
+def pythonInBox():
+    width = (float) (input("Enter a width: "))
+    height = (float) (input("Enter a height: "))
+    length = (float) (input("Enter a length: "))
+    print("Volume is: " + str(width * height * length))
+
 
 
 def foo():
